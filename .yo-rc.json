@@ -1,0 +1,29 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Andrew Menich",
+      "authorEmail": "andrew@madmadmad.com",
+      "authorUrl": ""
+    }
+  },
+  "generator-mdhs-craft-starter": {
+    "promptValues": {
+      "createNewServer": true,
+      "createNewRepo": true,
+      "createAws": true,
+      "useNitro": true
+    }
+  },
+  "generator-nginx-fastcgicache": {
+    "promptValues": {
+      "outputDir": "/Desktop/cot-nginx",
+      "siteName": "toledo.madmadmad.net",
+      "webroot": "public",
+      "maxPostSize": 16,
+      "cacheKey": "COT",
+      "sslCert": "ssl_certificate /etc/nginx/ssl/toledo.madmadmad.net/749087/server.crt;",
+      "sslKey": "ssl_certificate_key /etc/nginx/ssl/toledo.madmadmad.net/749087/server.key;",
+      "gzipOn": true
+    }
+  }
+}
